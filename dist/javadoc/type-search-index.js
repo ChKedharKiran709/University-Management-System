@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"university.management.system","l":"AddStudent"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"university.management.system","l":"Conn"},{"p":"university.management.system","l":"Login"},{"p":"university.management.system","l":"Project"},{"p":"university.management.system","l":"Splash"}];updateSearchResults();
