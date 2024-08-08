@@ -43,15 +43,15 @@ public class About extends JFrame {
         branch.setFont(new Font("Tahoma", Font.PLAIN, 25));
         add(branch);
 
-           bel contact = new JLabel("Contact: chkedharkiran@gmail.com");
-           tact.setBounds(70, 480, 550, 40);
-           tact.setFont(new Font("Tahoma", Font.PLAIN, 20));
-           (contact);
-          
-           bel Github = new JLabel("Github: https://github.com/ChKedharKiran709");
-           hub.setBounds(70, 510, 550, 40);
-           hub.setFont(new Font("Tahoma", Font.PLAIN, 20));
-           (Github);
+        JLabel contact = new JLabel("Contact: chkedharkiran@gmail.com");
+        contact.setBounds(70, 480, 550, 40);
+        contact.setFont(new Font("Tahoma", Font.PLAIN, 20));
+        add(contact);
+
+        JLabel Github = new JLabel("Github: https://github.com/ChKedharKiran709");
+        Github.setBounds(70, 510, 550, 40);
+        Github.setFont(new Font("Tahoma", Font.PLAIN, 20));
+        add(Github);
         setLayout(null);
         setVisible(true);
 
