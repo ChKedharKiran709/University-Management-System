@@ -10,6 +10,7 @@ import java.awt.event.*;
 public class Marks extends JFrame implements ActionListener{
     String rollno;
     JButton cancel;
+    
     Marks(String rollno) {
         this.rollno = rollno;
         
@@ -19,8 +20,8 @@ public class Marks extends JFrame implements ActionListener{
         
         getContentPane().setBackground(Color.WHITE);
         
-        JLabel heading = new JLabel("IIT Kharagpur");
-        heading.setBounds(100, 10, 500, 25);
+        JLabel heading = new JLabel("Bengal University");
+        heading.setBounds(140, 10, 500, 25);
         heading.setFont(new Font("Tahoma", Font.BOLD, 20));
         add(heading);
         
